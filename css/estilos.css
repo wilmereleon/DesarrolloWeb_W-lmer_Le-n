@@ -16,24 +16,52 @@ section
   background-color: #82c3a6;;
 }
 h1{
+  font-size: 70px;
+  margin: 50px;
+  margin-top: 36px;
   color: white;
   text-shadow: 2px 2px #02010a;
 }
-img {
-	width: 1000px;
-}
-#imagen{
 
+figure img{
+	width: 1500px;
+  height: 900px;
+}
+.preImg2{
+  width: 600px;
+  height: 200px;
+}
+.preImg3{
+  width: 600px;
+  height: 200px;
+}
+#imagen1{
+}
+#imagen2{
+}
+#imagen3{
+/*   para colocar efector de la imagen principal*/
 }
 figure {
 	text-align: center;
-	margin: 100px;
+	margin: 20px;
 }
+figure.img2{
+  text-align: left;
+	margin: 20px;
+}
+figure.img3{
+  text-align: right;
+	margin: 20px;
+}
+
 .enlace
 {
   color: white;
+  font-size: 30px;
 }
 #Redireccionadores{
+  margin-top: 36px;
   height: 90%;
   float: right;
   letter-spacing: 1px;
@@ -42,6 +70,10 @@ figure {
 a.enlace{
   text-decoration: none;
 }
+#header h1{
+  display: inline;
+}
+
 section aside
 {
   width: 100%;
@@ -52,7 +84,7 @@ section aside
 section article
 {
   width: 100%;
-  height: 400px;
+  height: 1000px;
   background-color: #d5c75f;
   float: right;
   border: 1px;

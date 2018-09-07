@@ -22,39 +22,50 @@ h1{
   color: white;
   text-shadow: 2px 2px #02010a;
 }
+#contenido{
+  display: flex;
+}
 
-figure img{
+img{
 	width: 1500px;
   height: 900px;
 }
 .preImg1{
-  width:60%;
+  width:100%;
 }
 
 .preImg2{
-  width:60%;
+  width: 900px;
+  height: 700px;
+
 }
 .preImg3{
-    width:60%;
+  width: 900px;
+  height: 700px;
 }
 #imagen1{
 }
 #imagen2{
+  float: left;
 }
 #imagen3{
+  float: right;
 /*   para colocar efector de la imagen principal*/
 }
 figure {
 	text-align: center;
 	margin: 20px;
 }
-figure.img2{
+div.img2{
+  margin-top: 35px;
   text-align: left;
-	margin: 20px;
+	margin-left: 20px;
+  margin-right: 50px;
 }
-figure.img3{
+div.img3{
+  margin-top: 35px;
   text-align: right;
-	margin: 20px;
+	margin-right: 20px;
 }
 
 .enlace

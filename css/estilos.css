@@ -13,7 +13,7 @@ section
 {
   width: 100%;
   height: 400px;
-  background-color: #82c3a6;;
+  background-color: #82c3a6;
 }
 h1{
   font-size: 70px;
@@ -21,6 +21,17 @@ h1{
   margin-top: 36px;
   color: white;
   text-shadow: 2px 2px #02010a;
+}
+#paisaje article{
+  width: 100%;
+  height: 500px;
+  background-color: #d5c75f;
+  border: 1px;
+  margin-top: 0;
+}
+#interior{
+  width: 100%;
+  height: 180px;
 }
 #titulo{
   display:flex;
@@ -47,28 +58,28 @@ img{
   height: 700px;
 }
 .preImg4{
-  width: 500px;
-  height: 300px;
+  width: 582px;
+  height: 382px;
 }
 .preImg5{
-  width: 500px;
-  height: 300px;
+  width: 582px;
+  height: 382px;
 }
 .preImg6{
-  width: 500px;
-  height: 300px;
+  width: 582px;
+  height: 382px;
 }
 .preImg7{
-  width: 500px;
-  height: 300px;
+  width: 582px;
+  height: 382px;
 }
 .preImg8{
-  width: 500px;
-  height: 300px;
+  width: 582px;
+  height: 382px;
 }
 .preImg9{
-  width: 500px;
-  height: 300px;
+  width: 582px;
+  height: 382px;
 }
 #imagen1{
 }
@@ -77,8 +88,11 @@ img{
 }
 #imagen3{
   float: right;
-/*   para colocar efector de la imagen principal*/
 }
+#imagen4{
+  float: right;
+}
+
 figure {
 	text-align: center;
 	margin: 20px;
@@ -93,6 +107,42 @@ div.img3{
   margin-top: 35px;
   text-align: right;
 	margin-right: 20px;
+}
+div.img4{
+  margin-top: 35px;
+  text-align: right;
+	margin-right: 25px;
+  margin-left: 25px;
+}
+div.img5{
+  margin-top: 35px;
+  text-align: right;
+	margin-right: 25px;
+  margin-left: 25px;
+}
+div.img6{
+  margin-top: 35px;
+  text-align: right;
+	margin-right: 25px;
+  margin-left: 25px;
+}
+div.img7{
+  margin-top: 35px;
+  text-align: right;
+	margin-right: 25px;
+  margin-left: 25px;
+}
+div.img8{
+  margin-top: 35px;
+  text-align: right;
+	margin-right: 25px;
+  margin-left: 25px;
+}
+div.img9{
+  margin-top: 35px;
+  text-align: right;
+	margin-right: 25px;
+  margin-left: 25px;
 }
 
 .enlace
@@ -124,7 +174,7 @@ section aside
 section article
 {
   width: 100%;
-  height: 1000px;
+  height: 800px;
   background-color: #d5c75f;
   float: right;
   border: 1px;

@@ -13,7 +13,7 @@ section
 {
   width: 100%;
   height: 400px;
-  background-color: rgb(133, 195, 226);
+  background-color: #82c3a6;;
 }
 h1{
   color: white;
@@ -34,22 +34,23 @@ section aside
 {
   width: 100%;
   height: 400px;
-  background-color: rgb(24, 128, 180);
+  background-color: #82c3a6;
   float: left;
 }
 section article
 {
   width: 100%;
   height: 400px;
-  background-color: rgb(150, 185, 203);
+  background-color: #d5c75f;
   float: right;
+  border: 1px;
 }
 footer
 {
   clear: both;
-  height: 100px;
+  height: 400px;
   width: 100%;
-  background-color: rgb(218, 146, 29);
+  background-color: #C6d5c5;
 }
 header nav
 {
@@ -57,3 +58,48 @@ header nav
   float: right;
   padding:  0.5% 2% 0 0;
 }
+
+
+
+
+
+
+/*
+blog roll
+*******/
+#extras {margin: 0 auto 3em auto;}
+
+#extras ul {list-style: none; margin: 0;}
+#extras li {}
+#extras h2 {
+	font-size: 1.429em;
+	margin-bottom: .25em;
+	padding: 0 3px;
+}
+
+#extras a:link, #extras a:visited {
+	display: block;
+	text-decoration: none;
+	padding: .3em .25em;
+}
+
+
+#extras a:hover, #extras a:active {}
+	/* Blogroll */
+	#extras .blogroll {
+		float: left;
+		width: 615px;
+	}
+
+	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 185px;}
+
+	#extras .blogroll a:link, #extras .blogroll a:visited{
+		color:#363636;
+	}
+
+	/* Redes Sociales */
+	#extras .social {
+
+		float: right;
+		width: 175px;
+	}

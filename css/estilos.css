@@ -2,18 +2,54 @@ body{
   font-family: 'Dancing Script',cursive;
 }
 
+#principal{
+  background-color: #82c3a6;
+}
+#psj{
+  background-color: #d5c75f;
+}
+/*
+section{
+  width: 1888px;
+  height: 0;
+  background-color: pink;
+}*/
+
 header
 {
   background-color: #5b7989;
-  width: 100%;
-  height: 120px;
+  width: 1888px;
+  height: 115px;
   border-radius: 10px 10px 0 0;
 }
-section
+
+section aside
 {
-  width: 100%;
-  height: 400px;
+  width: 1888px;
+  height: 1000px;
   background-color: #82c3a6;
+}
+section article
+{
+  width: 1888px;
+  height: 800px;
+  background-color: #d5c75f;
+  float: right;
+  border: 1px;
+}
+
+header nav
+{
+  height: 90%;
+  float: right;
+  padding:  0.5% 2% 0 0;
+}
+footer
+{
+  clear: both;
+  height: 400px;
+  width: 1888px;
+  background-color: #C6d5c5;
 }
 h1{
   font-size: 70px;
@@ -164,34 +200,7 @@ a.enlace{
   display: inline;
 }
 
-section aside
-{
-  width: 100%;
-  height: 1000px;
-  background-color: #82c3a6;
-  float: left;
-}
-section article
-{
-  width: 100%;
-  height: 800px;
-  background-color: #d5c75f;
-  float: right;
-  border: 1px;
-}
-footer
-{
-  clear: both;
-  height: 400px;
-  width: 100%;
-  background-color: #C6d5c5;
-}
-header nav
-{
-  height: 90%;
-  float: right;
-  padding:  0.5% 2% 0 0;
-}
+
 
 
 

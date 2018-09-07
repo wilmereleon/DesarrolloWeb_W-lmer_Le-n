@@ -127,49 +127,71 @@ header nav
 /*
 blog roll
 *******/
-#extras {margin: 0 auto 3em auto;}
 
-#extras ul {list-style: none; margin: 0;}
-#extras li {}
+#extras {
+  margin: 20px auto 2em auto;
+}
+
+#extras ul{
+  list-style: none;
+  margin: 20px;
+}
+#extras li{
+
+}
 #extras h2 {
 	font-size: 2.429em;
-	margin-bottom: .25em;
-	padding: 0 3px;
+	margin-bottom: .20em;
+	padding: 1px 2px;
 }
 
 #extras a:link, #extras a:visited {
 	display: block;
 	text-decoration: none;
-	padding: .3em .25em;
+	padding: .2em .20em;
 }
 
 
+
+
 #extras a:hover, #extras a:active {}
-	/* Blogroll */
+
 	#extras .blogroll {
 		float: left;
-		width: 615px;
+		width: 470px;
 	}
 
-	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 185px;}
+	#extras .blogroll li {
+    margin: 20px 20px 20px 20px;
+    width: 200px;
+  }
 
 	#extras .blogroll a:link, #extras .blogroll a:visited{
-		color:#363636;
+		color: black;
+
 	}
 
-	/* Redes Sociales */
-	#extras .social {
 
-		float: right;
-		width: 175px;
-	}
+
   img.redes1{
     width: 5%;
     height: 5%;
   }
   img.redes2{
-    width:5%;
+    width: 5%;
+    height: 5%;
   }
   img.redes3{
-    width:5%;
+    width: 5%;
+    height: 5%;
+  }
+
+  #face{
+    display: inline;
+  }
+  #insta{
+    display: inline;
+  }
+  #twit{
+    display: inline;
   }

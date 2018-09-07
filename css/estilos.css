@@ -27,13 +27,15 @@ figure img{
 	width: 1500px;
   height: 900px;
 }
+.preImg1{
+  width:60%;
+}
+
 .preImg2{
-  width: 600px;
-  height: 200px;
+  width:60%;
 }
 .preImg3{
-  width: 600px;
-  height: 200px;
+    width:60%;
 }
 #imagen1{
 }

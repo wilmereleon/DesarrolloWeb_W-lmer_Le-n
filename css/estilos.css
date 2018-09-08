@@ -2,11 +2,6 @@ body{
   font-family: 'Dancing Script',cursive;
 }
 
-#principal{
-  background-color: #82c3a6;
-}
-#psj{
-  background-color: #d5c75f;
 }
 /*
 section{
@@ -23,7 +18,7 @@ header
   border-radius: 10px 10px 0 0;
 }
 
-section aside
+section
 {
   width: 1888px;
   height: 1000px;
@@ -231,26 +226,20 @@ blog roll
 	padding: 0 2px;
 }
 
+#extras a:hover, #extras a:active{
 
-#extras a:hover, #extras a:active {}
-
-	#extras .blogroll {
+}
+	#extras .blogroll{
 		float: left;
 		width: 470px;
 	}
-
-	#extras .blogroll li {
+	#extras .blogroll li{
     margin: 0;
     width: 350px;
   }
-
 	#extras .blogroll a:link, #extras .blogroll a:visited{
 		color: black;
-
 	}
-
-
-
   img.redes1{
     width: 10%;
     height: 10%;
